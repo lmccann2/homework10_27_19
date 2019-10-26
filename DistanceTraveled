@@ -1,0 +1,18 @@
+#Python 3.7.4
+#Levi McCann
+#10/25/2019
+#Distance Traveled (4-4)
+#I do not like Python that much
+
+
+
+#Load Variables
+speed = int(input('Please enter your speed: '))
+hours = int(input('Please enter the time you have traveled in hours:'))
+distance = hours * speed
+traveled = 0
+#setup Line heading
+print("Hour\tDistance Traveled")
+#Loop for each hour traveled limited to exit always
+for hour in range(1, hours + 1):
+    print(hour, "\t", (hour * speed))
