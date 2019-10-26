@@ -1,0 +1,18 @@
+#Python 3.7.4
+#Levi McCann
+#10/24/2019
+#CIS 2187
+#Bug Collector Prog (4-1)
+
+# Define Variables
+total_bugs = 0
+num_of_days = 5
+
+#Loop for num_of_days increment by 1 and exit loop
+for i in range(0, num_of_days): 
+  daily_bugs = int(input('Please enter the number of bugs collected today: '))
+  total_bugs += daily_bugs
+  i+= 1
+#print output
+print('------------------------------')
+print('Total bugs collected: ', total_bugs)
