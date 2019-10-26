@@ -1,0 +1,13 @@
+#Levi McCann
+#10/26/2019
+#Calories Burned (4-2)
+
+#Define variables
+#This loop always exits
+cal = 4.2
+min = 1
+
+#Run range loop at 10 min, increment 5 minutes, stop at 30 min
+#This loop always exits
+for min in range (10,31,5):
+    print('You have burned', (cal*min), 'calories in', min, 'minutes')
