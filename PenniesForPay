@@ -1,0 +1,27 @@
+#Python 3.7.4
+#Levi McCann
+#10/26/2019
+#Pennies for Pay (4-7)
+#Runs a loop that exits as all loops should
+
+
+
+
+
+
+#Define variables
+
+day = int(input('Please enter the number of days: '))
+#pennies = format('$', ',.f')
+total = 1
+salary = 1
+print('------------------------------')
+#This loop always exits on days entered number
+
+for i in range(1,day+1):
+    print("{}    ${:.2f}".format(i,salary/100))
+    total += salary
+    salary *= 2
+    
+#Format output string with ${:.2f} for two decimal places and money   
+print('The total salary for {} days is: $ {:.2f}'.format(day,total/100))
