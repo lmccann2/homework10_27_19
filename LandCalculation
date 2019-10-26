@@ -1,0 +1,18 @@
+#Python 3.7.4
+#Levi McCann
+#Land Calculation (P2-3)
+#CIS 2187
+#9/25/2019
+
+
+#Simple Land Calculation program
+#Define variables
+sqft = int(input('Please enter the total square footage of the parcel: '))
+
+
+acre = sqft / 43500
+
+#Print Table
+print('------------------------------')
+#Print calculation
+print('There are', acre, 'acres in the tract: ')
